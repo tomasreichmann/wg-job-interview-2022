@@ -1,5 +1,7 @@
+import Image from "next/image";
 import React from "react";
-
+import useSWR from "swr";
+const fetcher = (...args) => fetch(...args).then((res) => res.json())
 /*
   For Assignment #2
   import vehicles from "../../vehicles.json";
@@ -9,12 +11,14 @@ import React from "react";
     "type": "lighttank",
     "tier": 1,
     "isPremium": false,
-    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz06_kolohousenka/cz06_kolohousenka_icon.svg",
+    "shapeUri": "https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz06_kolohousenka/cz06_kolohousenka_icon.svg",
     "name": "Kolohousenka"
   },
 */
 
 const Vehicles = () => {
+  const { data } = useSWR('/api/article', fetcher)
+  console.log(data);
   return (
     <div className="Vehicles">
       <div className="Vehicle">
@@ -31,7 +35,7 @@ const Vehicles = () => {
           <span className="Vehicle_shape">
             <img
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz06_kolohousenka/cz06_kolohousenka_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz06_kolohousenka/cz06_kolohousenka_icon.svg"
             />
           </span>
           <span className="Vehicle_name">Kolohousenka</span>
@@ -50,8 +54,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz03_lt_vz35/cz03_lt_vz35_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz03_lt_vz35/cz03_lt_vz35_icon.svg"
             />
           </span>
           <span className="Vehicle_name">LT vz. 35</span>
@@ -70,8 +75,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz10_lt_vz38/cz10_lt_vz38_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz10_lt_vz38/cz10_lt_vz38_icon.svg"
             />
           </span>
           <span className="Vehicle_name">LT vz. 38</span>
@@ -90,8 +96,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz11_v_8_h/cz11_v_8_h_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz11_v_8_h/cz11_v_8_h_icon.svg"
             />
           </span>
           <span className="Vehicle_name">ST vz. 39</span>
@@ -110,8 +117,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz09_t_24/cz09_t_24_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz09_t_24/cz09_t_24_icon.svg"
             />
           </span>
           <span className="Vehicle_name">Škoda T 24</span>
@@ -130,8 +138,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz08_t_25/cz08_t_25_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz08_t_25/cz08_t_25_icon.svg"
             />
           </span>
           <span className="Vehicle_name">Škoda T 25</span>
@@ -150,8 +159,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz01_skoda_t40/cz01_skoda_t40_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz01_skoda_t40/cz01_skoda_t40_icon.svg"
             />
           </span>
           <span className="Vehicle_name">Škoda T 40</span>
@@ -170,8 +180,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz05_t34_100/cz05_t34_100_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz05_t34_100/cz05_t34_100_icon.svg"
             />
           </span>
           <span className="Vehicle_name">Konštrukta T-34/100</span>
@@ -190,8 +201,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz07_tvp_46/cz07_tvp_46_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz07_tvp_46/cz07_tvp_46_icon.svg"
             />
           </span>
           <span className="Vehicle_name">TVP VTU Koncept</span>
@@ -210,8 +222,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz13_t_27/cz13_t_27_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz13_t_27/cz13_t_27_icon.svg"
             />
           </span>
           <span className="Vehicle_name">Škoda T 27</span>
@@ -230,8 +243,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz02_tvp_t50/cz02_tvp_t50_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz02_tvp_t50/cz02_tvp_t50_icon.svg"
             />
           </span>
           <span className="Vehicle_name">Škoda T 50</span>
@@ -250,8 +264,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz04_t50_51/cz04_t50_51_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz04_t50_51/cz04_t50_51_icon.svg"
             />
           </span>
           <span className="Vehicle_name">TVP T 50/51</span>
@@ -270,8 +285,9 @@ const Vehicles = () => {
         <div className="Vehicle_title">
           <span className="Vehicle_shape">
             <img
+              layout="fill"
               alt=""
-              src="//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz15_skoda_t-45_prem/cz15_skoda_t-45_prem_icon.svg"
+              src="https://eu-wotp.wgcdn.co/dcont/tankopedia_images/cz15_skoda_t-45_prem/cz15_skoda_t-45_prem_icon.svg"
             />
           </span>
           <span className="Vehicle_name">Škoda T 45</span>

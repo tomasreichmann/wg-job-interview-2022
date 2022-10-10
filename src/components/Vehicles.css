@@ -16,45 +16,48 @@
 .Vehicle_nation {
 }
 
-.Vehicle_flag {
+span.Vehicle_flag {
 }
 
-.Vehicle_flag__czech {
+span.Vehicle_flag__czech {
   /* 29x18 /czech.png */
 }
 
 .Vehicle_type {
 }
 
-.Vehicle_type_icon {
+span.Vehicle_type_icon {
 }
 /* 11x13 /lighttank.svg */
-.Vehicle_type_icon__lighttank {
+span.Vehicle_type_icon__lighttank {
 }
 
 /* 12x15 /mediumtank.svg */
-.Vehicle_type_icon__mediumtank {
+span.Vehicle_type_icon__mediumtank {
 }
 
 /* 12x15 /mediumtank.svg */
-.Vehicle_type_icon__mediumtank-prem {
+span.Vehicle_type_icon__mediumtank-prem {
 }
 
 /* 15x18 /heavytank.svg */
-.Vehicle_type_icon__heavytank-prem {
+span.Vehicle_type_icon__heavytank-prem {
 }
 
 .Vehicle_tier {
 }
 
-.Vehicle_tier_text {
+span.Vehicle_tier_text {
 }
 
-.Vehicle_title {
+span.Vehicle_title {
 }
 
-.Vehicle_shape {
+span.Vehicle_shape {
 }
 
-.Vehicle_name {
+span.Vehicle_shape img {
+}
+
+span.Vehicle_name {
 }
