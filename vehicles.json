@@ -1,0 +1,106 @@
+[
+  {
+    "nation": "czech",
+    "type": "lighttank",
+    "tier": 1,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz06_kolohousenka/cz06_kolohousenka_icon.svg",
+    "name": "Kolohousenka"
+  },
+  {
+    "nation": "czech",
+    "type": "lighttank",
+    "tier": 2,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz03_lt_vz35/cz03_lt_vz35_icon.svg",
+    "name": "LT vz. 35"
+  },
+  {
+    "nation": "czech",
+    "type": "lighttank",
+    "tier": 3,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz10_lt_vz38/cz10_lt_vz38_icon.svg",
+    "name": "LT vz. 38"
+  },
+  {
+    "nation": "czech",
+    "type": "mediumtank",
+    "tier": 4,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz11_v_8_h/cz11_v_8_h_icon.svg",
+    "name": "ST vz. 39"
+  },
+  {
+    "nation": "czech",
+    "type": "mediumtank",
+    "tier": 5,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz09_t_24/cz09_t_24_icon.svg",
+    "name": "Škoda T 24"
+  },
+  {
+    "nation": "czech",
+    "type": "mediumtank",
+    "tier": 6,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz08_t_25/cz08_t_25_icon.svg",
+    "name": "Škoda T 25"
+  },
+  {
+    "nation": "czech",
+    "type": "mediumtank-prem",
+    "tier": 6,
+    "isPremium": true,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz01_skoda_t40/cz01_skoda_t40_icon.svg",
+    "name": "Škoda T 40"
+  },
+  {
+    "nation": "czech",
+    "type": "mediumtank",
+    "tier": 7,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz05_t34_100/cz05_t34_100_icon.svg",
+    "name": "Konštrukta T-34/100"
+  },
+  {
+    "nation": "czech",
+    "type": "mediumtank",
+    "tier": 8,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz07_tvp_46/cz07_tvp_46_icon.svg",
+    "name": "TVP VTU Koncept"
+  },
+  {
+    "nation": "czech",
+    "type": "mediumtank-prem",
+    "tier": 8,
+    "isPremium": true,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz13_t_27/cz13_t_27_icon.svg",
+    "name": "Škoda T 27"
+  },
+  {
+    "nation": "czech",
+    "type": "mediumtank",
+    "tier": 9,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz02_tvp_t50/cz02_tvp_t50_icon.svg",
+    "name": "Škoda T 50"
+  },
+  {
+    "nation": "czech",
+    "type": "mediumtank",
+    "tier": 10,
+    "isPremium": false,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz04_t50_51/cz04_t50_51_icon.svg",
+    "name": "TVP T 50/51"
+  },
+  {
+    "nation": "czech",
+    "type": "heavytank-prem",
+    "tier": 7,
+    "isPremium": true,
+    "shapeUri": "//eu-wotp.wgcdn.co/dcont/tankopedia_images/cz15_skoda_t-45_prem/cz15_skoda_t-45_prem_icon.svg",
+    "name": "Škoda T 45"
+  }
+]

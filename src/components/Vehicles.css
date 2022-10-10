@@ -1,0 +1,60 @@
+.Vehicles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Vehicle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Vehicle__premium {
+}
+
+.Vehicle_nation {
+}
+
+.Vehicle_flag {
+}
+
+.Vehicle_flag__czech {
+  /* 29x18 /czech.png */
+}
+
+.Vehicle_type {
+}
+
+.Vehicle_type_icon {
+}
+/* 11x13 /lighttank.svg */
+.Vehicle_type_icon__lighttank {
+}
+
+/* 12x15 /mediumtank.svg */
+.Vehicle_type_icon__mediumtank {
+}
+
+/* 12x15 /mediumtank.svg */
+.Vehicle_type_icon__mediumtank-prem {
+}
+
+/* 15x18 /heavytank.svg */
+.Vehicle_type_icon__heavytank-prem {
+}
+
+.Vehicle_tier {
+}
+
+.Vehicle_tier_text {
+}
+
+.Vehicle_title {
+}
+
+.Vehicle_shape {
+}
+
+.Vehicle_name {
+}
